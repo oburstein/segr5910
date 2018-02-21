@@ -1,0 +1,12 @@
+#!/bin/bash
+
+docker pull redis
+docker pull docker.io/oburstein/webapp:v1
+
+#docker run -d --name redis1 redis
+#docker run -it -p 6379:6379 --name redis1 redis   <--- maybe this one?
+
+docker run -d --name redis1 redis
+docker run -d --link redis1:redis -p 3000:3000 --name webapp oburstein/webapp:v1
+
+echo "Done launching webapp"
