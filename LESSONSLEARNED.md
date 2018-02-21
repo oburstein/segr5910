@@ -5,13 +5,13 @@
 Despite not getting this web application fully functional, I learned a LOT about Docker, the command line, writing simple shell scripts, using Git and generally getting more comfortable on the Mac platform. 
 
 First, regardling Docker, we had reviewed it in class and I had played around with it just a little prior to this assignment, but now I can officially say I am quite comfortable with the basics of Docker, both the concepts of Images, Containers spun from Images, Images built out of "Layers" and committing Containers back into new Images. These core concepts have really reinforced the potential of Docker.  
-**Lesson Learned: Docker is awesome! **
+**Lesson Learned: Docker is awesome!**
 
 Shell scripts were my go to technology to create my "infrastructure as code." It was easy to bundle up all the new Docker commands as well as some others into scripts that could be run with one command. There is still a lot to learn here - I found a cool resource for this here: http://linuxcommand.org/  
-**Lesson Learned: The Shell is all powerful. Continue to harness its power. **
+**Lesson Learned: The Shell is all powerful. Continue to harness its power.**
 
 Through this process, I have also gotten a bit more used to Git on the command line. Subversion is the primary source control tool at work so I don't get to use Git too much. I'm now a bit more comfortable with git add, commit, push, pull and status commands. I'm sure this will prove useful in the future.  
-**Lesson Learned: Git is definitely a bit more complicated than SVN. There is some learning curve that I haven't crested yet. **
+**Lesson Learned: Git is definitely a bit more complicated than SVN. There is some learning curve that I haven't crested yet.**
 
 Finally, since Docker is not available on Windows 7 (my core work computer), I was able to use a work Mac to get Docker running. It's great to get some more hands on experience with the Mac platform and bash.  
 **Lesson Learned: I'm due for a laptop refresh at work and thinking about going for a Macbook Pro** 
