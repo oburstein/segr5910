@@ -14,3 +14,4 @@ The Dockerfile included in the Git Repo shows you how this Webapp Image was buil
 
 Issues:
 * The Webserver DOES start, but it only serves 404s right now. I'm not sure why. If you change the "launch_web_app" shell script to download oburstein/webapp:v1 and run oburstein/webapp:v1, the server will start and serve the Guestbook (but still won't be connected to Redis). However, webapp:v1 contains MJ's OLD version of webapp.tar.gz (before MJ sent the correction email on 2/19) and doesn't download it fresh every time. 
+* Was never able to actually connect to Redis, as mentioned above if you use oburstein/webapp:v1, you'll be able to get to the Guestbook and see that it has the Redis environment variables set up, but the database connection was never made. 
