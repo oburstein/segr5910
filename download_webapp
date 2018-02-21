@@ -1,0 +1,3 @@
+#!/bin/bash
+wget -qO- https://github.com/michaeljon/SU_SEGR_5910_18WQ/raw/master/webapp.tar.gz | tar xvz
+/home/webapp/dist/example-webapp-linux
