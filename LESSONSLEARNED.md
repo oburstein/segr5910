@@ -16,9 +16,15 @@ Finally, since Docker is not available on Windows 7 (my core work computer), I w
 
 I think about half of the struggle was being new to Docker, new to Mac and many of the bash commands I needed to run. Once I got comfortable with those, life became easier. In retrospect, I should have done more work on my own with Docker so that I could hit the ground running on this assignment. I also had zero experience with Redis and I think that ultimately prevented me from getting this fully up and running. If I had more time, I'd go back to square one on Redis and try to get it working on my local machine before trying to work with it in containerized form. 
 
+I also ran into a problem that I could not run the webserver properly unless I specifically called it from ./dist/example-webapp-linux. If I instead tried calling it from ./webapp/dist/example-webapp-linux, it only served up 404 pages. I'm still not sure why. 
+
 ### The Ugly ###
 
-Obviously part of the struggle was that the webapp.tar.gz file was not the corrected until 2/19. By this time I had already spent about 6 hours on the assignment and getting quite frustrated. I think the class could have also benefited from some more specific instruction on how to wire up Redis. This is ultimately what I strugged with the most. 
+Part of the struggle was that the webapp.tar.gz file was not the corrected until 2/19. By this time I had already spent about 6 hours on the assignment and getting quite frustrated. I think the class could have also benefited from some more specific instruction on how to wire up Redis. This is ultimately what I strugged with the most. 
 
-I also ran into a problem that I could not run the webserver properly unless I specifically called it from ./dist/example-webapp-linux. If I instead tried calling it from ./webapp/dist/example-webapp-linux, it only served up 404 pages. I'm still not sure why. 
+The assignment was very open-ended, which was great. In fact it never actually mentioned Docker anywhere. Despite this, I think the intent was for most people to get some practice using Docker so we could have benefited from just a bit more detailed instructions.
+
+Overall I enjoyed how much I learned doing this assingment but wish I got it running completely!
+
+
 
