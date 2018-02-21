@@ -1,5 +1,5 @@
 # Use an official ubuntu runtime with wget as a parent image (docker.io/oburstein/segr5910:latest)
-FROM segr5910
+FROM docker.io/oburstein/segr5910:latest
 
 # Set the working directory to /home
 WORKDIR /home
